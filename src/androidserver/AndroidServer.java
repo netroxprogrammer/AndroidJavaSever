@@ -27,7 +27,7 @@ public class AndroidServer {
         Socket client=server.accept();
        // InputStream input=client.getInputStream();
         PrintWriter writer=new PrintWriter(client.getOutputStream(),true);
-        writer.println("hello abdullah masood janii");
+        writer.println("hello abdullah masood11 ");
         writer.close();
        
        }
